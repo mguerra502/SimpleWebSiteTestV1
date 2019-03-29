@@ -1,0 +1,142 @@
+body {
+	background: #ffffff;
+}
+
+#whole {
+	width: 1330px;
+	margin: auto;
+}
+
+#main {
+	background: #ffffff;
+	text-align: center;
+}
+
+#headDiv img {
+	width: 20%;
+	height: 20%;
+}
+
+#navBarDiv {
+	
+	width: 38%;
+	height: 40px;
+	background: #ffffff;
+	text-align: center;
+	border: solid 2px #d3d3d3;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+#navBarDiv ul {
+	display: inline-table;
+	margin: 0;
+	padding: 0;
+}
+
+#navBarDiv ul li {
+	list-style: none;
+	display: inline;
+}
+
+#navBarDiv ul li a {
+	text-decoration: none;
+	float: left;
+	display: block;
+	padding: 10px 20px;
+	color: black;
+	font-family: "Arial";
+	font-size: 16px;
+}
+
+#navBarDiv ul li a:hover {
+	color: red;
+}
+
+#companysImageDiv {
+	text-align: center;
+	margin-top: 20px;
+}
+
+/* Footer */
+#mainFooter {
+	width: 100%;
+	text-align: center;
+}
+
+/* Left Footer */
+#leftFooter {
+	float: left;
+	width: 23%;
+	text-align: left;
+	margin-top: 20px;
+	margin-left: 10%;
+}
+
+
+#leftFooter ul li {
+	list-style: none;
+	display: inline;
+}
+
+#leftFooter ul li a {
+	text-decoration: none;
+	display: block;
+	padding: 10px 20px;
+	color: #2f4f4f;
+	font-family: "Arial";
+	font-size: 14px;
+}
+
+#leftFooter ul li a:hover {
+	color: red;
+}
+
+/* Middle Footer */
+#middleFooter {
+	display: inline-block;
+	width: 23%;
+	text-align: left;
+	margin-top: 20px;
+}
+
+#middleFooter ul li {
+	list-style: none;
+	display: inline;
+}
+
+#middleFooter ul li a {
+	text-decoration: none;
+	display: block;
+	padding: 10px 20px;
+	color: #2f4f4f;
+	font-family: "Arial";
+	font-size: 14px;
+}
+
+#middleFooter ul li a:hover {
+	color: red;
+}
+
+/* Right Footer */
+#rightFooter {
+	margin-top: 20px;
+	float: right;
+	width: 23%;
+	margin-right: 18%;
+}
+
+/* Copyright */
+
+#copyright {
+	margin-top: 60px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+#copyright p {
+	font-family: "Arial";
+	font-size: 10px;
+	color: #2f4f4f
+}
